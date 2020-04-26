@@ -1,0 +1,10 @@
+{
+  "name": "state-exporter",
+  "version": "0.1.0",
+  "description": "State exporter for Kulupu era transition 0 to 1.",
+  "main": "index.js",
+  "repository": "https://github.com/kulupu/era-transitions",
+  "author": "Wei Tang <hi@that.world>",
+  "license": "Apache-2.0",
+  "private": true
+}
