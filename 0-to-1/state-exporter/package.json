@@ -6,5 +6,8 @@
   "repository": "https://github.com/kulupu/era-transitions",
   "author": "Wei Tang <hi@that.world>",
   "license": "Apache-2.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@polkadot/api": "^1.11.2"
+  }
 }
