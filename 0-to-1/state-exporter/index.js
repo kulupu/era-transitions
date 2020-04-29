@@ -79,6 +79,7 @@ const main = async () => {
     indices: outputSets,
   };
   console.log(JSON.stringify(output, null, 4));
+  console.error("Done");
 };
 
 const info = async () => {
