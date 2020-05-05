@@ -4,7 +4,7 @@ const BN = require('bn.js');
 const targetBlockNumber = 309000;
 
 const main = async () => {
-  const wsProvider = new WsProvider('wss://rpc.kulupu.network/ws');
+  const wsProvider = new WsProvider('wss://era0.rpc.kulupu.network/ws');
   const api = await ApiPromise.create({
     provider: wsProvider,
     types: {
