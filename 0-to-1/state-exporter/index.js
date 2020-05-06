@@ -1,7 +1,7 @@
 const { ApiPromise, WsProvider } = require('@polkadot/api');
 const BN = require('bn.js');
 
-const targetBlockNumber = 309000;
+const targetBlockNumber = 320000;
 
 const main = async () => {
   const wsProvider = new WsProvider('wss://era0.rpc.kulupu.network/ws');
